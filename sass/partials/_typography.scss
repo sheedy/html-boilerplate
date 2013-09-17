@@ -1,0 +1,11 @@
+// Referencing Parent Selectors using the ampersand (&) character
+// http://thesassway.com/intermediate/referencing-parent-selectors-using-ampersand
+
+h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+	.some-parent-selector & {
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+}
